@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { ContactFormData } from '../types';
 
@@ -69,7 +68,7 @@ const Contact: React.FC = () => {
                 </div>
                 <div>
                   <p className="text-sm font-medium text-red-200 uppercase tracking-wide">Email Me</p>
-                  <p className="text-lg font-semibold">hello@alexrivera.dev</p>
+                  <p className="text-lg font-semibold">hello@claritas.dev</p>
                 </div>
               </div>
               <div className="flex items-center space-x-4 text-white">

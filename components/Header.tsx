@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 
 const Header: React.FC = () => {
@@ -23,9 +22,9 @@ const Header: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center">
         <div className="flex items-center space-x-2">
           <div className="w-8 h-8 bg-red-600 rounded-lg flex items-center justify-center">
-            <span className="text-white font-bold text-lg">A</span>
+            <span className="text-white font-bold text-lg">C</span>
           </div>
-          <span className="text-xl font-bold tracking-tight text-slate-900">Alex Rivera</span>
+          <span className="text-xl font-bold tracking-tight text-slate-900">Claritas</span>
         </div>
         
         <nav className="hidden md:flex items-center space-x-8">

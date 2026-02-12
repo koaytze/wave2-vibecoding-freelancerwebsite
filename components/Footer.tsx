@@ -1,4 +1,3 @@
-
 import React from 'react';
 
 const Footer: React.FC = () => {
@@ -8,13 +7,13 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
           <div className="flex items-center space-x-2">
             <div className="w-6 h-6 bg-red-600 rounded flex items-center justify-center">
-              <span className="text-white font-bold text-xs">A</span>
+              <span className="text-white font-bold text-xs">C</span>
             </div>
-            <span className="text-sm font-bold text-slate-900 uppercase tracking-widest">Alex Rivera</span>
+            <span className="text-sm font-bold text-slate-900 uppercase tracking-widest">Claritas</span>
           </div>
           
           <p className="text-sm text-slate-500">
-            &copy; {new Date().getFullYear()} Alex Rivera. All rights reserved. Built with precision.
+            &copy; {new Date().getFullYear()} Claritas. All rights reserved. Built with precision.
           </p>
           
           <div className="flex items-center space-x-6">

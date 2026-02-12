@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 
 const Header: React.FC = () => {
@@ -14,6 +15,7 @@ const Header: React.FC = () => {
   const navLinks = [
     { name: 'Services', href: '#services' },
     { name: 'Projects', href: '#projects' },
+    { name: 'Insights', href: '#insights' },
     { name: 'Contact', href: '#contact' },
   ];
 

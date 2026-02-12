@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Hero from './components/Hero';
 import Services from './components/Services';
 import Projects from './components/Projects';
+import Insights from './components/Insights';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
@@ -21,7 +22,10 @@ const App: React.FC = () => {
         <section id="projects" className="bg-slate-50">
           <Projects />
         </section>
-        <section id="contact" className="bg-white">
+        <section id="insights" className="bg-white">
+          <Insights />
+        </section>
+        <section id="contact" className="bg-slate-50">
           <Contact />
         </section>
       </main>
